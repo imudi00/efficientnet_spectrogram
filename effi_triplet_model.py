@@ -97,8 +97,12 @@ transform = transforms.Compose([
 
 # 5) 데이터셋과 데이터로더 생성
 root_data_dir = "./data"  # 자신의 데이터 경로로 변경하세요 ✅✅✅✅ 입력 필요
-triplet_dataset = TripletDataset(root_dir=root_data_dir, transform=transform)
-data_loader = DataLoader(triplet_dataset, batch_size=32, shuffle=True, num_workers=4)
+train_dataset = TripletDataset(root_dir=root_data_dir, song_ids=train_ids, transform=transform)
+val_dataset = TripletDataset(root_dir=root_data_dir, song_ids=val_ids, transform=transform)
+
+train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True, num_workers=4)
+val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False, num_workers=4)
+
 
 # 6) Triplet 학습 루프 함수
 def train_triplet(model, data_loader, optimizer, loss_fn, device):
@@ -154,7 +158,26 @@ def recommend_topk(query_embedding, gallery_embeddings, gallery_ids, topk=5):
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
+    
+    # 전체 곡 폴더 경로
+    data_root = root_data_dir
 
+    # 곡 ID 폴더 리스트
+    song_ids = sorted([d for d in os.listdir(data_root) if os.path.isdir(os.path.join(data_root, d))])
+
+    # 랜덤 셔플 (재현성 있게 하려면 seed 설정)
+    random.seed(42)
+    random.shuffle(song_ids)
+
+    # 비율 나누기 (예: 80% train, 20% val)
+    split_ratio = 0.8
+    split_index = int(len(song_ids) * split_ratio)
+
+    train_ids = song_ids[:split_index]
+    val_ids = song_ids[split_index:]
+
+    print(f"Train: {len(train_ids)}곡, Val: {len(val_ids)}곡")
+    
     num_epochs = 10
     for epoch in range(num_epochs):
         avg_loss = train_triplet(model, data_loader, optimizer, loss_fn, device)
