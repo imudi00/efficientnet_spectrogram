@@ -13,12 +13,20 @@ import random
 class EfficientNetEmbedding(nn.Module):
     def __init__(self, embedding_size=128):
         super().__init__()
+        
+        # 1. EfficientNet-B0 불러오기 (pretrained)
         self.base_model = models.efficientnet_b0(pretrained=True)
-        self.features = self.base_model.features
-        self.pool = nn.AdaptiveAvgPool2d(1)
-        self.embedding = nn.Linear(1280, embedding_size)
-        self.l2_norm = nn.functional.normalize
-
+        
+        # 2. EfficientNet 파라미터 동결
+        for param in self.base_model.parameters():
+            param.requires_grad = False
+        
+        # 3. 필요한 부분만 추출
+        self.features = self.base_model.features  # feature extractor
+        self.pool = nn.AdaptiveAvgPool2d(1)       # 글로벌 평균 풀링
+        self.embedding = nn.Linear(1280, embedding_size)  # 임베딩 레이어
+        self.l2_norm = nn.functional.normalize     # L2 정규화
+        
     def forward(self, x):
         x = self.features(x)
         x = self.pool(x)
@@ -76,6 +84,12 @@ class TripletDataset(Dataset):
 
 # 4) 이미지 전처리 설정
 transform = transforms.Compose([
+    #전에 하던 증강이랑 똑같이 처리.
+        transforms.RandomAffine(
+        degrees=0,
+        translate=(0.1, 0.1),
+        scale=(0.9, 1.1)
+    ),
     transforms.Resize((224,224)),
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225]),
