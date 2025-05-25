@@ -15,7 +15,7 @@ for audio_file in audio_files:
     audio_path = os.path.join(audio_directory, audio_file)
     y, sr = librosa.load(audio_path, sr=16000)
 
-    # 🔥 "비트 변화가 큰 지점" 찾기 (backtrack=True 사용)
+    #비트 변화가 큰 지점 찾기 (backtrack=True 사용)
     onset_frames = librosa.onset.onset_detect(y=y, sr=sr, backtrack=True)
 
     # onset_frames는 프레임 인덱스 배열이므로 이를 시간으로 변환
@@ -43,7 +43,7 @@ for audio_file in audio_files:
     else:
         end_time = start_time + 60
     
-    # 🎵 "자른 오디오" 저장
+    #"자른 오디오" 저장
     os.makedirs(save_directory, exist_ok=True)
 
     # 원본 파일 이름을 그대로 사용
@@ -55,4 +55,4 @@ for audio_file in audio_files:
     segment = y[start_sample:end_sample]
 
     sf.write(segment_filename, segment, sr)
-    print(f"✅ {segment_filename} 저장 완료! (구간: {start_time:.2f}초 ~ {end_time:.2f}초)")
+    print(f"{segment_filename} 저장 완료 (구간: {start_time:.2f}초 ~ {end_time:.2f}초)")

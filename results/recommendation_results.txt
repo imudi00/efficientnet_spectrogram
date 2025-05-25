@@ -1,0 +1,104 @@
+
+[00200_Similar_Rock_00200_Cover_Instrument_A.png]에 대한 추천 결과 (개별 커버 이미지 기반):
+1. 곡 ID: 00210 | 이미지: Similar_RnB_00210_Cover_Tempo_A.png | 유사도: 0.9913
+2. 곡 ID: 00448 | 이미지: Similar_RnB_00448_Cover_Tempo_C.png | 유사도: 0.9874
+3. 곡 ID: 00131 | 이미지: Similar_Ballade_00131_Cover_Rhythm_A.png | 유사도: 0.9874
+4. 곡 ID: 00210 | 이미지: Similar_RnB_00210_Cover_Instrument_A.png | 유사도: 0.9853
+5. 곡 ID: 00354 | 이미지: Similar_Rock_00354_Cover_Genre_A.png | 유사도: 0.9830
+6. 곡 ID: 00448 | 이미지: Similar_RnB_00448_Cover_Instrument_C.png | 유사도: 0.9827
+7. 곡 ID: 00210 | 이미지: Similar_RnB_00210_Cover_Timbre_C.png | 유사도: 0.9825
+8. 곡 ID: 00172 | 이미지: Similar_Ballade_00172_Cover_Instrument_C.png | 유사도: 0.9824
+9. 곡 ID: 00163 | 이미지: Similar_Ballade_00163_Cover_Genre_A.png | 유사도: 0.9822
+10. 곡 ID: 00852 | 이미지: Similar_RnB_00852_Cover_Timbre_B.png | 유사도: 0.9798
+
+정답 곡 ID: 00200
+같은 곡 ID [00200]의 다른 커버 이미지들과의 유사도:
+    - 이미지: Similar_Rock_00200_Cover_Arrangement_A.png | 유사도: 0.9136
+    - 이미지: Similar_Rock_00200_Cover_Genre_A.png | 유사도: 0.8222
+    - 이미지: Similar_Rock_00200_Cover_Instrument_C.png | 유사도: 0.7817
+    - 이미지: Similar_Rock_00200_Cover_Rhythm_A.png | 유사도: 0.9192
+    - 이미지: Similar_Rock_00200_Cover_Tempo_A.png | 유사도: 0.8830
+    - 이미지: Similar_Rock_00200_Cover_Tempo_C.png | 유사도: 0.9618
+    - 이미지: Similar_Rock_00200_Cover_Timbre_A.png | 유사도: 0.8862
+    - 이미지: Similar_Rock_00200_Cover_Timbre_C.png | 유사도: 0.8837
+
+
+-------------------------------------------------------------
+
+
+[00095_Similar_Ballade_00095_Cover_Instrument_D.png]에 대한 추천 결과 (개별 커버 이미지 기반):
+1. 곡 ID: 00086 | 이미지: Similar_Ballade_00086_Cover_Instrument_D.png | 유사도: 0.9972
+2. 곡 ID: 00305 | 이미지: Similar_Rock_00305_Cover_Timbre_C.png | 유사도: 0.9964
+3. 곡 ID: 00068 | 이미지: Similar_Ballade_00068_Cover_Instrument_C.png | 유사도: 0.9953
+4. 곡 ID: 00095 | 이미지: Similar_Ballade_00095_Cover_Timbre_B.png | 유사도: 0.9940
+5. 곡 ID: 00396 | 이미지: Similar_RnB_00396_Cover_Instrument_C.png | 유사도: 0.9937
+6. 곡 ID: 00641 | 이미지: Similar_RnB_00641_Cover_Genre_A.png | 유사도: 0.9932
+7. 곡 ID: 00314 | 이미지: Similar_RnB_00314_Cover_Timbre_C.png | 유사도: 0.9924
+8. 곡 ID: 00614 | 이미지: Similar_Trot_00614_Cover_Instrument_B.png | 유사도: 0.9918
+9. 곡 ID: 00119 | 이미지: Similar_Ballade_00119_Cover_Tempo_D.png | 유사도: 0.9916
+10. 곡 ID: 00172 | 이미지: Similar_Ballade_00172_Cover_Timbre_C.png | 유사도: 0.9914
+
+정답 곡 ID: 00095
+같은 곡 ID [00095]의 다른 커버 이미지들과의 유사도:
+    - 이미지: Similar_Ballade_00095_Cover_Arrangement_A.png | 유사도: 0.9772
+    - 이미지: Similar_Ballade_00095_Cover_Genre_A.png | 유사도: 0.5616
+    - 이미지: Similar_Ballade_00095_Cover_Instrument_B.png | 유사도: 0.9866
+    - 이미지: Similar_Ballade_00095_Cover_Rhythm_A.png | 유사도: 0.6289
+    - 이미지: Similar_Ballade_00095_Cover_Tempo_B.png | 유사도: 0.9831
+    - 이미지: Similar_Ballade_00095_Cover_Tempo_D.png | 유사도: 0.3629
+    - 이미지: Similar_Ballade_00095_Cover_Timbre_B.png | 유사도: 0.9940
+    - 이미지: Similar_Ballade_00095_Cover_Timbre_D.png | 유사도: 0.9758
+
+
+-------------------------------------------------------------
+
+
+[00479_Similar_RnB_00479_Cover_Arrangement_A.png]에 대한 추천 결과 (개별 커버 이미지 기반):
+1. 곡 ID: 00188 | 이미지: Similar_Ballade_00188_Cover_Arrangement_A.png | 유사도: 0.9887
+2. 곡 ID: 00097 | 이미지: Similar_Ballade_00097_Cover_Instrument_B.png | 유사도: 0.9873
+3. 곡 ID: 00148 | 이미지: Similar_Ballade_00148_Cover_Tempo_B.png | 유사도: 0.9851
+4. 곡 ID: 00497 | 이미지: Similar_RnB_00497_Cover_Timbre_A.png | 유사도: 0.9841
+5. 곡 ID: 00492 | 이미지: Similar_RnB_00492_Cover_Tempo_C.png | 유사도: 0.9831
+6. 곡 ID: 00652 | 이미지: Similar_Trot_00652_Cover_Tempo_B.png | 유사도: 0.9831
+7. 곡 ID: 00492 | 이미지: Similar_RnB_00492_Cover_Instrument_A.png | 유사도: 0.9814
+8. 곡 ID: 00785 | 이미지: Similar_RnB_00785_Cover_Timbre_D.png | 유사도: 0.9781
+9. 곡 ID: 00316 | 이미지: Similar_RnB_00316_Cover_Instrument_C.png | 유사도: 0.9772
+10. 곡 ID: 00492 | 이미지: Similar_RnB_00492_Cover_Instrument_C.png | 유사도: 0.9768
+
+정답 곡 ID: 00479
+같은 곡 ID [00479]의 다른 커버 이미지들과의 유사도:
+    - 이미지: Similar_RnB_00479_Cover_Genre_A.png | 유사도: 0.8071
+    - 이미지: Similar_RnB_00479_Cover_Instrument_A.png | 유사도: 0.9574
+    - 이미지: Similar_RnB_00479_Cover_Instrument_C.png | 유사도: 0.8610
+    - 이미지: Similar_RnB_00479_Cover_Rhythm_B.png | 유사도: 0.4861
+    - 이미지: Similar_RnB_00479_Cover_Tempo_A.png | 유사도: 0.9367
+    - 이미지: Similar_RnB_00479_Cover_Tempo_C.png | 유사도: 0.7977
+    - 이미지: Similar_RnB_00479_Cover_Timbre_A.png | 유사도: 0.9515
+    - 이미지: Similar_RnB_00479_Cover_Timbre_C.png | 유사도: 0.9017
+
+
+-------------------------------------------------------------
+
+
+[00429_Similar_Rock_00429_Cover_Arrangement_A.png]에 대한 추천 결과 (개별 커버 이미지 기반):
+1. 곡 ID: 00407 | 이미지: Similar_RnB_00407_Cover_Tempo_C.png | 유사도: 0.9859
+2. 곡 ID: 00504 | 이미지: Similar_Hiphop_00504_Cover_Timbre_A.png | 유사도: 0.9833
+3. 곡 ID: 00995 | 이미지: Similar_RnB_00995_Cover_Genre_A.png | 유사도: 0.9823
+4. 곡 ID: 00319 | 이미지: Similar_RnB_00319_Cover_Instrument_A.png | 유사도: 0.9818
+5. 곡 ID: 00319 | 이미지: Similar_RnB_00319_Cover_Genre_A.png | 유사도: 0.9806
+6. 곡 ID: 00189 | 이미지: Similar_Ballade_00189_Cover_Arrangement_A.png | 유사도: 0.9803
+7. 곡 ID: 00223 | 이미지: Similar_Ballade_00223_Cover_Genre_A.png | 유사도: 0.9782
+8. 곡 ID: 00652 | 이미지: Similar_Trot_00652_Cover_Instrument_B.png | 유사도: 0.9769
+9. 곡 ID: 00504 | 이미지: Similar_Hiphop_00504_Cover_Instrument_A.png | 유사도: 0.9751
+10. 곡 ID: 00461 | 이미지: Similar_RnB_00461_Cover_Instrument_A.png | 유사도: 0.9715
+
+정답 곡 ID: 00429
+같은 곡 ID [00429]의 다른 커버 이미지들과의 유사도:
+    - 이미지: Similar_Rock_00429_Cover_Genre_A.png | 유사도: 0.2662
+    - 이미지: Similar_Rock_00429_Cover_Instrument_A.png | 유사도: 0.8471
+    - 이미지: Similar_Rock_00429_Cover_Instrument_C.png | 유사도: 0.8007
+    - 이미지: Similar_Rock_00429_Cover_Rhythm_B.png | 유사도: 0.3300
+    - 이미지: Similar_Rock_00429_Cover_Tempo_A.png | 유사도: 0.3728
+    - 이미지: Similar_Rock_00429_Cover_Tempo_C.png | 유사도: -0.2378
+    - 이미지: Similar_Rock_00429_Cover_Timbre_A.png | 유사도: 0.7992
+    - 이미지: Similar_Rock_00429_Cover_Timbre_C.png | 유사도: 0.7528

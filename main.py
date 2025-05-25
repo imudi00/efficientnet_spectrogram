@@ -40,4 +40,4 @@ with open(log_path, "w", encoding="utf-8") as log_file:
         save_path = os.path.join(config.model_save_dir, f"model_epoch_{epoch+1}.pth")
         torch.save(model.state_dict(), save_path)
 
-print(f"\n📄 학습 로그가 '{log_path}'에 저장되었습니다.")
+print(f"\n학습 로그 '{log_path}' 저장")

@@ -59,7 +59,7 @@ with open(output_file_path, "w", encoding="utf-8") as f:
             similarity = sims[i]
             f.write(f"{rank}. 곡 ID: {song_id} | 이미지: {image_name} | 유사도: {similarity:.4f}\n")
 
-        f.write(f"🎯 정답 곡 ID: {true_song_id}\n🎯 같은 곡 ID [{true_song_id}]의 다른 커버 이미지들과의 유사도:\n")
+        f.write(f"정답 곡 ID: {true_song_id}\n같은 곡 ID [{true_song_id}]의 다른 커버 이미지들과의 유사도:\n")
         found = False
         for i, song_id in enumerate(gallery_dataset.image_ids):
             if song_id == true_song_id:
@@ -68,6 +68,6 @@ with open(output_file_path, "w", encoding="utf-8") as f:
                 f.write(f"    - 이미지: {image_name} | 유사도: {similarity:.4f}\n")
                 found = True
         if not found:
-            f.write(f"    ⚠️ 갤러리에서 곡 ID [{true_song_id}] 커버곡을 찾지 못했습니다.\n")
+            f.write(f"곡 ID [{true_song_id}] 커버곡을 찾지 못했습니다.\n")
 
-print(f"\n📄 추천 결과가 '{output_file_path}'에 저장되었습니다.")
+print(f"\n추천 결과 '{output_file_path}' 저장장")
